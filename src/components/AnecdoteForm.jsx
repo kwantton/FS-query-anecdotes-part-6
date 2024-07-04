@@ -33,8 +33,6 @@ const onCreate = async (event) => {
   const content = event.target.anecdote.value
   event.target.anecdote.value = ''
   newAnecdoteMutation.mutate({ content, votes: 0 })  
-  
-  
 }
 
   return (

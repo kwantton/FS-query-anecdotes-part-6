@@ -43,15 +43,9 @@ const App = () => {
 
   return (
     <div>
-      <h3>Anecdote app</h3>
-    
-      {/* <Notification type='NOTIFICATION'/> */}
-      
-      
+      <h3>Anecdote app</h3>     
         <Notification/>
         <AnecdoteForm />
-      
-    
       {anecdotes.map(anecdote =>
         <div key={anecdote.id}>
           <div>
